@@ -12,9 +12,10 @@ export const Header = () => {
                 </div>
 
                 <nav className={`${styles.mainNav}`}>
-                    <a href="/">Home</a>
+                    <a href="/">Inicio</a>
                     <a href="/">Sobre nós</a>
-                    <a href="/">Empresas e soluções</a>
+                    <a href="/">Produtos</a>
+                    <a href="/">Empresas</a>
                     <a href="/" className={`${styles.mainNavButton}`}>Fale Conosco</a>
                 </nav>
             </div>

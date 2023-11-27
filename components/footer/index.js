@@ -31,8 +31,8 @@ export const Footer = () => {
                             <ul>
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/">Sobre nós</a></li>
-                                <li><a href="/">Empresas e produtos</a></li>
-                                <li><a href="/">Fale Conosco</a></li>
+                                <li><a href="/">Produtos</a></li>
+                                <li><a href="/">Empresas</a></li>
                             </ul>
                         </nav>
                         <nav className={`${styles.footerMenu}`}>
