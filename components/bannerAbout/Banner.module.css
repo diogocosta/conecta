@@ -1,0 +1,22 @@
+.bannerAbout {
+    background-color: var(--blue-800);
+    padding: 12rem 0;
+}
+
+.bannerAboutContainer {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.bannerAboutContent {
+    width: 50%;
+    max-width: 640px;
+    color: var(--slate-100);
+}
+
+.bannerAboutContent p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}

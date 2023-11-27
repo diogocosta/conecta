@@ -1,0 +1,39 @@
+.listBusiness {
+    padding: 8rem 0;
+}
+
+.listBusinessContainer {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.listBusinessHead {
+    width: 50%;
+    max-width: 640px;
+    margin-bottom: 4rem;
+}
+
+.listBusinessHead h3 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    color: var(--blue-500);
+    margin-bottom: 1rem;
+}
+
+.listBusinessSubline {
+    font-size: 1.25rem;
+    color: var(--slate-600);
+}
+
+.listBusinessItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.listBusinessItem figure img {
+    height: 50px;
+    width: auto;
+}
