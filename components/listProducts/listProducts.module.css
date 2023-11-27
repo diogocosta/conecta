@@ -74,3 +74,14 @@
 .listProductsFooter {
 
 }
+
+@media (max-width: 960px) {
+    .listProductsHead { width: 80%; max-width: 80%; }
+}
+
+@media (max-width: 640px) {
+    .listProducts { padding: 6rem 0; }
+    .listProductsHead { width: 100%; max-width: 100%; }
+    .listProductsItem { max-width: 100%; }
+    .listProductsItem figure { max-width: 70%;}
+}

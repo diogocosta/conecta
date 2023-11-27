@@ -9,6 +9,7 @@
     position: absolute;
     right: 0;
     top: calc(120px + 10vh);
+    max-width: 50%;
 }
 
 .heroVideo {
@@ -74,4 +75,17 @@
     text-underline-offset: 12px;
     text-decoration-thickness: 3px;
     transition: all .5s;
+}
+
+@media (max-width: 960px) {
+    .heroSymbol { max-width: 50%;}
+    .heroContent { gap: 1rem; }
+    .heroContentTitle { font-size: 2.5rem; }
+    .heroContentText { font-size: 1.1rem; line-height: 1.25rem; }
+    .heroContentButton a { font-size: 1.1rem; }
+}
+
+@media (max-width: 640px) {
+    .heroSymbol { display: none; }
+    .heroContent { width: 100%; max-width: 100%; }
 }

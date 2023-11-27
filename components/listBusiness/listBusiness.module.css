@@ -37,3 +37,14 @@
     height: 50px;
     width: auto;
 }
+
+@media (max-width: 960px) {
+    .listBusinessHead { width: 80%; max-width: 80%; }
+}
+
+@media (max-width: 640px) {
+    .listBusiness { padding: 6rem 0; }
+    .listBusinessHead { width: 100%; max-width: 100%; }
+    .listBusinessItem { max-width: 100%; }
+    .listBusinessItem figure { max-width: 70%;}
+}

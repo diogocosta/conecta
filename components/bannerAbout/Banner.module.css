@@ -20,3 +20,8 @@
     line-height: 2rem;
     margin-bottom: 1.5rem;
 }
+
+@media (max-width: 640px) {
+    .bannerAbout { padding: 8rem 0; }
+    .bannerAboutContent { width: 100%; max-width: 100%; }
+}
