@@ -7,6 +7,25 @@
     width: 90%;
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bannerAboutImage {
+    text-align: right;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.bannerAboutImage p {
+    margin-bottom: 1rem;
+}
+
+.bannerAboutImage img {
+    max-width: 50%;
+    height: auto;
 }
 
 .bannerAboutContent {
@@ -23,5 +42,7 @@
 
 @media (max-width: 640px) {
     .bannerAbout { padding: 8rem 0; }
+    .bannerAboutContainer { flex-direction: column;}
+    .bannerAboutImage { text-align: center; }
     .bannerAboutContent { width: 100%; max-width: 100%; }
 }

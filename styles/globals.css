@@ -1,97 +1,96 @@
 :root {
-    --blue-300: rgba(84, 195, 255, 1);
-    --blue-500: rgba(20, 80, 238, 1);
-    --blue-700: rgba(23, 57, 145, 1);
-    --blue-800: rgba(19, 36, 88, 1);
-    --blue-900: rgba(10, 20, 50, 1);
-    --slate-100: rgba(241, 245, 249, 1);
-    --slate-200: rgba(226, 232, 240, 1);
-    --slate-300: rgba(203, 213, 225, 1);
-    --slate-400: rgba(148, 163, 184, 1);
-    --slate-500: rgba(100, 116, 139, 1);
-    --slate-600: rgba(71, 85, 105, 1);
-    --slate-700: rgba(51, 65, 85, 1);
-    --white-300: rgba(255, 255, 255, 0.3);
-    --white-500: rgba(255, 255, 255, 0.5);
-    --white-700: rgba(255, 255, 255, 0.7);
-    --white-800: rgba(255, 255, 255, 0.85);
-    --white-900: rgba(255, 255, 255, 1);
-    --font-family: "Onest", Helvetica, Arial, sans-serif;
+  --blue-300: rgba(84, 195, 255, 1);
+  --blue-500: rgba(20, 80, 238, 1);
+  --blue-700: rgba(23, 57, 145, 1);
+  --blue-800: rgba(19, 36, 88, 1);
+  --blue-900: rgba(10, 20, 50, 1);
+  --slate-100: rgba(241, 245, 249, 1);
+  --slate-200: rgba(226, 232, 240, 1);
+  --slate-300: rgba(203, 213, 225, 1);
+  --slate-400: rgba(148, 163, 184, 1);
+  --slate-500: rgba(100, 116, 139, 1);
+  --slate-600: rgba(71, 85, 105, 1);
+  --slate-700: rgba(51, 65, 85, 1);
+  --white-300: rgba(255, 255, 255, 0.3);
+  --white-500: rgba(255, 255, 255, 0.5);
+  --white-700: rgba(255, 255, 255, 0.7);
+  --white-800: rgba(255, 255, 255, 0.85);
+  --white-900: rgba(255, 255, 255, 1);
+  --font-family: "Onest", Helvetica, Arial, sans-serif;
 
+  --header-menu-item-font-family: "Onest-SemiBold", Helvetica;
+  --header-menu-item-font-size: 18px;
+  --header-menu-item-font-style: normal;
+  --header-menu-item-font-weight: 600;
+  --header-menu-item-letter-spacing: 0px;
+  --header-menu-item-line-height: normal;
+  --hero-description-font-family: "Onest-Regular", Helvetica;
+  --hero-description-font-size: 24px;
+  --hero-description-font-style: normal;
+  --hero-description-font-weight: 400;
+  --hero-description-letter-spacing: 0px;
+  --hero-description-line-height: normal;
+  --hero-h1-font-family: "Onest-Medium", Helvetica;
+  --hero-h1-font-size: 54px;
+  --hero-h1-font-style: normal;
+  --hero-h1-font-weight: 500;
+  --hero-h1-letter-spacing: 0px;
+  --hero-h1-line-height: 60px;
 
-    --header-menu-item-font-family: "Onest-SemiBold", Helvetica;
-    --header-menu-item-font-size: 18px;
-    --header-menu-item-font-style: normal;
-    --header-menu-item-font-weight: 600;
-    --header-menu-item-letter-spacing: 0px;
-    --header-menu-item-line-height: normal;
-    --hero-description-font-family: "Onest-Regular", Helvetica;
-    --hero-description-font-size: 24px;
-    --hero-description-font-style: normal;
-    --hero-description-font-weight: 400;
-    --hero-description-letter-spacing: 0px;
-    --hero-description-line-height: normal;
-    --hero-h1-font-family: "Onest-Medium", Helvetica;
-    --hero-h1-font-size: 54px;
-    --hero-h1-font-style: normal;
-    --hero-h1-font-weight: 500;
-    --hero-h1-letter-spacing: 0px;
-    --hero-h1-line-height: 60px;
-
-    --text-big-bold-font-family: "Onest-Medium", Helvetica;
-    --text-big-bold-font-size: 80px;
-    --text-big-bold-font-style: normal;
-    --text-big-bold-font-weight: 500;
-    --text-big-bold-letter-spacing: 0px;
-    --text-big-bold-line-height: 90px;
-    --text-big-font-family: "Onest-SemiBold", Helvetica;
-    --text-big-font-size: 48px;
-    --text-big-font-style: normal;
-    --text-big-font-weight: 600;
-    --text-big-letter-spacing: 0px;
-    --text-big-line-height: normal;
-    --text-button-font-family: "Onest-SemiBold", Helvetica;
-    --text-button-font-size: 24px;
-    --text-button-font-style: normal;
-    --text-button-font-weight: 600;
-    --text-button-letter-spacing: 0px;
-    --text-button-line-height: 24px;
-    --text-content-font-family: "Onest-Regular", Helvetica;
-    --text-content-font-size: 20px;
-    --text-content-font-style: normal;
-    --text-content-font-weight: 400;
-    --text-content-letter-spacing: 0px;
-    --text-content-line-height: 30px;
-    --text-copy-font-family: "Onest-Regular", Helvetica;
-    --text-copy-font-size: 16px;
-    --text-copy-font-style: normal;
-    --text-copy-font-weight: 400;
-    --text-copy-letter-spacing: 0px;
-    --text-copy-line-height: normal;
-    --text-h1-font-family: "Onest-Medium", Helvetica;
-    --text-h1-font-size: 54px;
-    --text-h1-font-style: normal;
-    --text-h1-font-weight: 500;
-    --text-h1-letter-spacing: 0px;
-    --text-h1-line-height: 60px;
-    --text-h3-font-family: "Onest-SemiBold", Helvetica;
-    --text-h3-font-size: 36px;
-    --text-h3-font-style: normal;
-    --text-h3-font-weight: 600;
-    --text-h3-letter-spacing: 0px;
-    --text-h3-line-height: normal;
-    --text-h4-font-family: "Onest-SemiBold", Helvetica;
-    --text-h4-font-size: 24px;
-    --text-h4-font-style: normal;
-    --text-h4-font-weight: 600;
-    --text-h4-letter-spacing: 0px;
-    --text-h4-line-height: normal;
-    --text-subline-font-family: "Onest-Regular", Helvetica;
-    --text-subline-font-size: 24px;
-    --text-subline-font-style: normal;
-    --text-subline-font-weight: 400;
-    --text-subline-letter-spacing: 0px;
-    --text-subline-line-height: normal;
+  --text-big-bold-font-family: "Onest-Medium", Helvetica;
+  --text-big-bold-font-size: 80px;
+  --text-big-bold-font-style: normal;
+  --text-big-bold-font-weight: 500;
+  --text-big-bold-letter-spacing: 0px;
+  --text-big-bold-line-height: 90px;
+  --text-big-font-family: "Onest-SemiBold", Helvetica;
+  --text-big-font-size: 48px;
+  --text-big-font-style: normal;
+  --text-big-font-weight: 600;
+  --text-big-letter-spacing: 0px;
+  --text-big-line-height: normal;
+  --text-button-font-family: "Onest-SemiBold", Helvetica;
+  --text-button-font-size: 24px;
+  --text-button-font-style: normal;
+  --text-button-font-weight: 600;
+  --text-button-letter-spacing: 0px;
+  --text-button-line-height: 24px;
+  --text-content-font-family: "Onest-Regular", Helvetica;
+  --text-content-font-size: 20px;
+  --text-content-font-style: normal;
+  --text-content-font-weight: 400;
+  --text-content-letter-spacing: 0px;
+  --text-content-line-height: 30px;
+  --text-copy-font-family: "Onest-Regular", Helvetica;
+  --text-copy-font-size: 16px;
+  --text-copy-font-style: normal;
+  --text-copy-font-weight: 400;
+  --text-copy-letter-spacing: 0px;
+  --text-copy-line-height: normal;
+  --text-h1-font-family: "Onest-Medium", Helvetica;
+  --text-h1-font-size: 54px;
+  --text-h1-font-style: normal;
+  --text-h1-font-weight: 500;
+  --text-h1-letter-spacing: 0px;
+  --text-h1-line-height: 60px;
+  --text-h3-font-family: "Onest-SemiBold", Helvetica;
+  --text-h3-font-size: 36px;
+  --text-h3-font-style: normal;
+  --text-h3-font-weight: 600;
+  --text-h3-letter-spacing: 0px;
+  --text-h3-line-height: normal;
+  --text-h4-font-family: "Onest-SemiBold", Helvetica;
+  --text-h4-font-size: 24px;
+  --text-h4-font-style: normal;
+  --text-h4-font-weight: 600;
+  --text-h4-letter-spacing: 0px;
+  --text-h4-line-height: normal;
+  --text-subline-font-family: "Onest-Regular", Helvetica;
+  --text-subline-font-size: 24px;
+  --text-subline-font-style: normal;
+  --text-subline-font-weight: 400;
+  --text-subline-letter-spacing: 0px;
+  --text-subline-line-height: normal;
 }
 
 * {
@@ -124,4 +123,87 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/*! locomotive-scroll v4.1.3 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-container] {
+  height: 100vh;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-section] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+.c-scrollbar:hover {
+  transform: scaleX(1.45);
+}
+.c-scrollbar:hover,
+.has-scroll-scrolling .c-scrollbar,
+.has-scroll-dragging .c-scrollbar {
+  opacity: 1;
+}
+[data-scroll-direction="horizontal"] .c-scrollbar {
+  width: 100%;
+  height: 10px;
+  top: auto;
+  bottom: 0;
+  transform: scaleY(1);
+}
+[data-scroll-direction="horizontal"] .c-scrollbar:hover {
+  transform: scaleY(1.3);
+}
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.has-scroll-dragging .c-scrollbar_thumb {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+[data-scroll-direction="horizontal"] .c-scrollbar_thumb {
+  right: auto;
+  bottom: 0;
 }

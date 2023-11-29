@@ -23,7 +23,7 @@ export const Footer = () => {
                         <Image src={conectaSymbol} />
                         <div className={`${styles.footerAboutText}`}>
                             <h4>Conectamos empresas com soluções.</h4>
-                            <p><a href="/">contato@conectamr.com.br</a></p>
+                            <p><a href="mailto:contato@conectamr.com.br">contato@conectamr.com.br</a></p>
                         </div>
                     </div>
                     <div className={`${styles.footerMenus}`}>

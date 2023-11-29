@@ -1,16 +1,25 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from './Banner.module.css'
+import logos from './logos.png'
 
-export default function BannerAbout() {
-    return (
-      <div className={`${styles.bannerAbout}`}>
-        <div className={`${styles.bannerAboutContainer}`}>
-            <div className={`${styles.bannerAboutContent}`}>
-                <p>Probabo, inquit, modo ista sis aequitate, quam nihil ut alterum aspernandum sentiamus alii autem, quibus ego cum teneam sententiam, quid malum, sensu iudicari, sed ipsius honestatis decore laudandis, id est laborum et harum quidem exercitus quid ex eo ortum, tam egregios viros censes aut voluptates.</p>
-                <p>Sed ut calere ignem, nivem esse fugiendum itaque earum motus et rationibus confirmare, tantum satis esse admonere interesse enim ad minima veniam, quis autem quidam e nostris, qui officia deserunt mollitia animi, id est consecutus? laudem et caritatem, quae sunt in sanguinem suum tam crudelis.</p>
-                <p>At vero eos censes aut in culpa, qui studiose antiqua persequeris, claris et voluptatem et caritatem, quae ab eo ortum, tam crudelis fuisse, nihil impedit, quo pertineant non possim accommodare torquatos nostros? quos dolores suscipiantur maiorum voluptatum deleniti atque integre iudicante itaque earum motus et.</p>
-            </div>
+export const BannerAbout = () => {
+  return (
+    <div className={`${styles.bannerAbout}`}>
+      <div className={`${styles.bannerAboutContainer}`}>
+        <div className={`${styles.bannerAboutContent}`}>
+          <p>Devido ao ótimo relacionamento dos sócios a grandes Indústrias e Empresas no ramo da Construção Civil e Infraestrutura, nós da Conecta Assessoria e Representações Comerciais garantimos os melhores preços, o melhor atendimento e condições comerciais diferenciadas aos nossos clientes.</p>
+          <p>Nossos parceiros são referências em seus setores de atuação e estão no mercado há mais de 40 anos, contam com áreas fabris expressivas localizadas no estado de São Paulo e possuem capacidade para atender em todo território nacional.</p>
+          <p>Todas as empresas contam com um moderno parque industrial, maquinário atualizado recentemente e únicos no Brasil, proporcionando alta produtividade e garantindo os melhores preços.</p>
+          <p>A qualidade dos produtos oferecidos sempre será nossa maior preocupação, portanto exigimos dos nossos fornecedores todos os certificados de qualidade nacionais, internacionais e um controle de processos rigoroso.</p>
+          <p>Já atendemos grandes players do mercado da Construção Civil e Infraestrutura e será um prazer atender a sua empresa também.</p>
+        </div>
+
+        <div className={`${styles.bannerAboutImage}`}>
+          <p>Certificações:</p>
+          <Image src={logos} alt="Logos" />
         </div>
       </div>
-    )
-  }
+    </div>
+  )
+}

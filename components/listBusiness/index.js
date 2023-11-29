@@ -22,24 +22,12 @@ export const ListBusiness = () => {
             <div className={`${styles.listBusinessContainer}`}>
                 <div className={`${styles.listBusinessHead}`}>
                     <h3>Os melhores produtos<br />das melhores empresas </h3>
-                    <div className={`${styles.listBusinessSubline}`}>
+                    {/* <div className={`${styles.listBusinessSubline}`}>
                         <p>Devido ao ótimo relacionamento dos sócios da Conecta a Grandes Indústrias, garantimos o melhor
                             atendimento, relacionamento e o preço mais competitivo para atender suas demandas.</p>
-                    </div>
+                    </div> */}
                 </div>
                 <div className={`${styles.listBusinessItems}`}>
-                    <div className={`${styles.listBusinessItem}`}>
-                        <figure><Image src={brandCCR} alt="CCR" /></figure>
-                    </div>
-
-                    <div className={`${styles.listBusinessItem}`}>
-                        <figure><Image src={brandCPTM} alt="CPTM" /></figure>
-                    </div>
-
-                    <div className={`${styles.listBusinessItem}`}>
-                        <figure><Image src={brandConstru} alt="Construcompany" /></figure>
-                    </div>
-                    
                     <div className={`${styles.listBusinessItem}`}>
                         <figure><Image src={brandCury} alt="Cury" /></figure>
                     </div>
@@ -49,15 +37,11 @@ export const ListBusiness = () => {
                     </div>
 
                     <div className={`${styles.listBusinessItem}`}>
-                        <figure><Image src={brandEngeform} alt="Engeform" /></figure>
+                        <figure><Image src={brandConstru} alt="Construcompany" /></figure>
                     </div>
 
                     <div className={`${styles.listBusinessItem}`}>
-                        <figure><Image src={brandLucio} alt="Lucio" /></figure>
-                    </div>
-
-                    <div className={`${styles.listBusinessItem}`}>
-                        <figure><Image src={brandMetro} alt="Metro" /></figure>
+                        <figure><Image src={brandTrisul} alt="Trisul" /></figure>
                     </div>
 
                     <div className={`${styles.listBusinessItem}`}>
@@ -65,7 +49,33 @@ export const ListBusiness = () => {
                     </div>
 
                     <div className={`${styles.listBusinessItem}`}>
+                        <figure><Image src={brandLucio} alt="Lucio" /></figure>
+                    </div>
+
+                    <div className={`${styles.listBusinessItem}`}>
                         <figure><Image src={brandRfm} alt="RFM" /></figure>
+                    </div>
+
+                    <div className={`${styles.listBusinessItem}`}>
+                        <figure><Image src={brandEngeform} alt="Engeform" /></figure>
+                    </div>
+
+                    <div className={`${styles.listBusinessItem}`}>
+                        <figure><Image src={brandSinco} alt="Sinco" /></figure>
+                    </div>
+                </div>
+
+                <div className={`${styles.listBusinessItems}`}>
+                    <div className={`${styles.listBusinessItem}`}>
+                        <figure><Image src={brandCCR} alt="CCR" /></figure>
+                    </div>
+
+                    <div className={`${styles.listBusinessItem}`}>
+                        <figure><Image src={brandCPTM} alt="CPTM" /></figure>
+                    </div>
+                    
+                    <div className={`${styles.listBusinessItem}`}>
+                        <figure><Image src={brandMetro} alt="Metro" /></figure>
                     </div>
 
                     <div className={`${styles.listBusinessItem}`}>
@@ -74,14 +84,6 @@ export const ListBusiness = () => {
 
                     <div className={`${styles.listBusinessItem}`}>
                         <figure><Image src={brandSinaliza} alt="Sinaliza" /></figure>
-                    </div>
-
-                    <div className={`${styles.listBusinessItem}`}>
-                        <figure><Image src={brandSinco} alt="Sinco" /></figure>
-                    </div>
-
-                    <div className={`${styles.listBusinessItem}`}>
-                        <figure><Image src={brandTrisul} alt="Trisul" /></figure>
                     </div>
                 </div>
             </div>

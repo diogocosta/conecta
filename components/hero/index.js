@@ -20,13 +20,9 @@ export const Hero = () => {
                     <div className={`${styles.heroContent}`}>
                         <h2 className={`${styles.heroContentTitle}`}>Conectando o Brasil</h2>
                         <div className={`${styles.heroContentText}`}>
-                        <p>Primum igitur, quid et rationibus conquisitis de quo minus id, de utilitatibus, nihil impedit, quo
-                        minus id, de homine sensibus reliqui nihil impedit, quo ignorare vos arbitrer, sed quia non fuisse
-                        torquem detraxit hosti et quidem.</p>
+                            <p>Devido ao ótimo relacionamento dos sócios da Conecta a Grandes Indústrias, garantimos o melhor atendimento, relacionamento e o preço mais competitivo para atender suas demandas.</p>
+                            <p><strong>Nossa missão é garantir o melhor preço e atendimento ao nosso cliente.</strong></p>
                         </div>
-                        <p className={`${styles.heroContentButton}`}>
-                            <a href="/">Conheça nossas soluções</a>
-                        </p>
                     </div>
                 </div>
             </div>

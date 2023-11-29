@@ -58,6 +58,14 @@
     color: rgba(255,255,255,.7)
 }
 
+.heroContentText p {
+    margin-bottom: 1rem;
+}
+
+.heroContentText p strong {
+    color: rgba(255,255,255,.9)
+}
+
 .heroContentButton a {
     font-size: 1.25rem;
     font-weight: 500;

@@ -4,6 +4,7 @@ import styles from './Header.module.css'
 import logo from './conecta.svg'
 
 export const Header = () => {
+
     return (
         <header className={`${styles.header}`}>
             <div className={`${styles.headerContainer}`}>
@@ -12,11 +13,11 @@ export const Header = () => {
                 </div>
 
                 <nav className={`${styles.mainNav}`}>
-                    <a href="/">Inicio</a>
-                    <a href="/">Sobre nós</a>
-                    <a href="/">Produtos</a>
-                    <a href="/">Empresas</a>
-                    <a href="/" className={`${styles.mainNavButton}`}>Fale Conosco</a>
+                    <a href="#welcome">Inicio</a>
+                    <a href="#about">Sobre nós</a>
+                    <a href="#products">Produtos</a>
+                    <a href="#business">Empresas</a>
+                    <a href="mailto:contato@conectamr.com.br" className={`${styles.mainNavButton}`}>Fale Conosco</a>
                 </nav>
             </div>
       </header>
