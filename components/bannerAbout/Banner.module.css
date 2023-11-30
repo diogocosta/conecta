@@ -10,7 +10,7 @@
     display: flex;
     gap: 32px;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .bannerAboutImage {
@@ -24,7 +24,7 @@
 }
 
 .bannerAboutImage img {
-    max-width: 50%;
+    max-width: 70%;
     height: auto;
 }
 

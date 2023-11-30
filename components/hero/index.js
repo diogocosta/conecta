@@ -5,7 +5,7 @@ import conectaSymbol from './symbol_conecta.svg'
 
 export const Hero = () => {
     return (
-        <div className={`${styles.hero}`}>
+        <div id="welcome" className={`${styles.hero}`}>
             <div className={`${styles.heroSymbol}`}>
                 <Image src={conectaSymbol} alt="Conecta" />
             </div>

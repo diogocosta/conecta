@@ -29,10 +29,10 @@ export const Footer = () => {
                     <div className={`${styles.footerMenus}`}>
                         <nav className={`${styles.footerMenu}`}>
                             <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/">Sobre nós</a></li>
-                                <li><a href="/">Produtos</a></li>
-                                <li><a href="/">Empresas</a></li>
+                                <li><a href="#welcome">Início</a></li>
+                                <li><a href="#about">Sobre nós</a></li>
+                                <li><a href="#products">Produtos</a></li>
+                                <li><a href="#business">Empresas</a></li>
                             </ul>
                         </nav>
                         <nav className={`${styles.footerMenu}`}>

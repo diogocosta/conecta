@@ -16,7 +16,7 @@ export const Header = () => {
                     <a href="#welcome">Inicio</a>
                     <a href="#about">Sobre nós</a>
                     <a href="#products">Produtos</a>
-                    <a href="#business">Empresas</a>
+                    <a href="#business">Clientes e Parceiros</a>
                     <a href="mailto:contato@conectamr.com.br" className={`${styles.mainNavButton}`}>Fale Conosco</a>
                 </nav>
             </div>

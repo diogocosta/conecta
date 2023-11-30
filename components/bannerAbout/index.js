@@ -5,7 +5,7 @@ import logos from './logos.png'
 
 export const BannerAbout = () => {
   return (
-    <div className={`${styles.bannerAbout}`}>
+    <div id="about" className={`${styles.bannerAbout}`}>
       <div className={`${styles.bannerAboutContainer}`}>
         <div className={`${styles.bannerAboutContent}`}>
           <p>Devido ao ótimo relacionamento dos sócios a grandes Indústrias e Empresas no ramo da Construção Civil e Infraestrutura, nós da Conecta Assessoria e Representações Comerciais garantimos os melhores preços, o melhor atendimento e condições comerciais diferenciadas aos nossos clientes.</p>
