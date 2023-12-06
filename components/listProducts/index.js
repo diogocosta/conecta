@@ -29,7 +29,7 @@ export const ListProducts = () => {
                             <Image src={guardRail} alt="Guard<li>ail, Gradil, Cercamento" />
                         </figure>
                         <div className={`${styles.listProductsItemText}`}>
-                            <h4>Defensas metálicas</h4>
+                            <h4>Defensas metálicas, grades, gradis e cercamentos</h4>
                             <p>Somos representantes de um dos maiores players do Brasil, estabelecido em área fabril com mais de 70 mil metros quadrados no Estado de São Paulo. Especialista na fabricação de derivados de aço e com maquinário moderno e atualizado, possui cota nas maiores usinas nacionais. Fabricação e matéria-prima 100% nacional.</p>
                             <ul>
                                 <li>Defensas metálicas</li>
