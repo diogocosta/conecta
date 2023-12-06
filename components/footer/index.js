@@ -1,24 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import styles from './Footer.module.css'
 import conectaSymbol from './conectaSymbol.svg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export const Footer = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
     return (
         <footer className={`${styles.footer}`}>
             <div className={`${styles.footerContainer}`}>
-                <div className={`${styles.footerHead}`}>
+                <div className={`${styles.footerHead}`} data-aos="fade-up">
                     <h3>
-                        Quer se conectar com
-                        <br />
-                        nossas empresas?
+                        Quer se conectar com<br /> as empresas que<br />representamos?
                     </h3>
                     <p>
                         <a href="/" className={`${styles.footerButton}`}>Fale Conosco</a>
                     </p>
                 </div>
 
-                <div className={`${styles.footerContent}`}>
+                <div className={`${styles.footerContent}`} data-aos="fade-up">
                     <div className={`${styles.footerAbout}`}>
                         <Image src={conectaSymbol} />
                         <div className={`${styles.footerAboutText}`}>

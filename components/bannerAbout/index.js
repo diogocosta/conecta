@@ -1,18 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import styles from './Banner.module.css'
 import logos from './logos.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export const BannerAbout = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div id="about" className={`${styles.bannerAbout}`}>
-      <div className={`${styles.bannerAboutContainer}`}>
+      <div className={`${styles.bannerAboutContainer}`} data-aos="fade-up">
         <div className={`${styles.bannerAboutContent}`}>
-          <p>Devido ao ótimo relacionamento dos sócios a grandes Indústrias e Empresas no ramo da Construção Civil e Infraestrutura, nós da Conecta Assessoria e Representações Comerciais garantimos os melhores preços, o melhor atendimento e condições comerciais diferenciadas aos nossos clientes.</p>
-          <p>Nossos parceiros são referências em seus setores de atuação e estão no mercado há mais de 40 anos, contam com áreas fabris expressivas localizadas no estado de São Paulo e possuem capacidade para atender em todo território nacional.</p>
-          <p>Todas as empresas contam com um moderno parque industrial, maquinário atualizado recentemente e únicos no Brasil, proporcionando alta produtividade e garantindo os melhores preços.</p>
-          <p>A qualidade dos produtos oferecidos sempre será nossa maior preocupação, portanto exigimos dos nossos fornecedores todos os certificados de qualidade nacionais, internacionais e um controle de processos rigoroso.</p>
-          <p>Já atendemos grandes players do mercado da Construção Civil e Infraestrutura e será um prazer atender a sua empresa também.</p>
+          <p>Idealizada por profissionais atuantes do mercado de construção civil e infraestrutura, a Conecta surgiu para servir como elo entre as mais variadas empresas atuantes de tal setor econômico. A grande parceria existente com alguns dos principais players do mercado nos permite ofertar produtos de forma dinâmica e com excelentes condições comerciais.</p>
+          <p>Representamos apenas empresas selecionadas, referências em seus setores de atuação.</p>
+          <p>Com o objetivo de garantir a melhor experiência possível aos nossos parceiros comerciais, optamos por apenas ofertar produtos de empresas sólidas, possuidoras de modernos parques industriais e produtos de alta qualidade.</p>
+          <p>Por ser um negócio essencialmente de relacionamento comercial, a Conecta tem como uma de suas principais preocupações a qualidade dos produtos oferecidos, motivo pelo qual nos certificamos que os nossos fornecedores possuem todos os certificados de qualidade exigidos.</p>
+          <p>Já participamos de relevantes negócios no setor da construção civil e da infraestrutura. Será um prazer contar um pouco mais da nossa história e entender como podemos agregar aos seus negócios.</p>
         </div>
 
         <div className={`${styles.bannerAboutImage}`}>

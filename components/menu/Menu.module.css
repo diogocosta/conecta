@@ -1,32 +1,3 @@
-.header {
-    width: 100vw;
-    padding: 32px 0;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    z-index: 1000;
-    transition: padding .2s ease-in;
-}
-
-.headerVisibled {
-    position: fixed;
-    background-color: rgba(10, 20, 50, .7);
-    padding: 16px 0;
-    animation-duration: 0.5s;
-    animation-fill-mode: both;
-    transition: padding .2s ease-in;
-    animation-name: slideInDown;
-}
-  
-.headerContainer {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1280px;
-    width: 90%;
-    position: relative;
-}
-    
 .mainNav {
     align-items: center;
     display: inline-flex;
@@ -73,14 +44,3 @@
     .headerContainer { justify-content: center; }
     .mainNav { display: none; }
 }
-
-@keyframes slideInDown {
-    from {
-      transform: translate3d(0, -100%, 0);
-      visibility: visible;
-    }
-  
-    to {
-      transform: translate3d(0, 0, 0);
-    }
-  }

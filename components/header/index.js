@@ -1,24 +1,34 @@
-import React from 'react'
+import React, { useState, useEffect} from 'react'
 import Image from 'next/image'
 import styles from './Header.module.css'
 import logo from './conecta.svg'
+import Menu from '../menu'
 
 export const Header = () => {
+    const [show, setShow] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
+  
+    const controlNavbar = () => {
+      if (window.scrollY > lastScrollY) { setShow(false); 
+      } else { setShow(true); }
+  
+      setLastScrollY(window.scrollY); 
+    };
+  
+    useEffect(() => {
+      window.addEventListener('scroll', controlNavbar);
+  
+      return () => window.removeEventListener('scroll', controlNavbar);
+    }, [lastScrollY]);
 
     return (
-        <header className={`${styles.header}`}>
+        <header className={`${styles.header} ${show ? styles.headerVisibled : ''}`}>
             <div className={`${styles.headerContainer}`}>
                 <div>
                     <a href="/"><Image src={logo} alt="Conecta" /></a>
                 </div>
 
-                <nav className={`${styles.mainNav}`}>
-                    <a href="#welcome">Inicio</a>
-                    <a href="#about">Sobre nós</a>
-                    <a href="#products">Produtos</a>
-                    <a href="#business">Clientes e Parceiros</a>
-                    <a href="mailto:contato@conectamr.com.br" className={`${styles.mainNavButton}`}>Fale Conosco</a>
-                </nav>
+                <Menu />
             </div>
       </header>
     )

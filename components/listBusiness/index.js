@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Image from 'next/image'
 import styles from './listBusiness.module.css'
 import brandCCR from './brand-ccr.png'
@@ -14,11 +14,16 @@ import brandRfm from './brand-rfm.png'
 import brandSinaliza from './brand-sinalisa.png'
 import brandTrisul from './brand-trisul.png'
 import brandConstrubase from './brand-construbase.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export const ListBusiness = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
         <div id="business" className={`${styles.listBusiness}`}>
-            <div className={`${styles.listBusinessContainer}`}>
+            <div className={`${styles.listBusinessContainer}`} data-aos="fade-up">
                 <div className={`${styles.listBusinessHead}`}>
                     <h3>Principais Clientes/Parceiros</h3>
                     {/* <div className={`${styles.listBusinessSubline}`}>
@@ -26,7 +31,7 @@ export const ListBusiness = () => {
                             atendimento, relacionamento e o preço mais competitivo para atender suas demandas.</p>
                     </div> */}
                 </div>
-                <div className={`${styles.listBusinessItems}`}>
+                <div className={`${styles.listBusinessItems}`} data-aos="fade-up">
                     <div className={`${styles.listBusinessItem}`}>
                         <figure><Image src={brandCury} alt="Cury" /></figure>
                     </div>
@@ -56,7 +61,7 @@ export const ListBusiness = () => {
                     </div>
                 </div>
 
-                <div className={`${styles.listBusinessItems}`}>
+                <div className={`${styles.listBusinessItems}`} data-aos="fade-up">
                     <div className={`${styles.listBusinessItem}`}>
                         <figure><Image src={brandCCR} alt="CCR" /></figure>
                     </div>
