@@ -19,7 +19,7 @@ const Menu = () => {
   return (
     <nav className={`${styles.mainNav}`}>
         {menuList}
-        <a href="mailto:contato@conectamr.com.br" className={`${styles.mainNavButton}`}>Fale Conosco</a>
+        <a href="mailto:contato@conectaglobal.com.br" className={`${styles.mainNavButton}`}>Fale Conosco</a>
     </nav>
   );
 }

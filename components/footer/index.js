@@ -27,7 +27,7 @@ export const Footer = () => {
                         <Image src={conectaSymbol} />
                         <div className={`${styles.footerAboutText}`}>
                             <h4>Conectamos empresas com soluções.</h4>
-                            <p><a href="mailto:contato@conectamr.com.br">contato@conectamr.com.br</a></p>
+                            <p><a href="mailto:contato@conectaglobal.com.br">contato@conectaglobal.com.br</a></p>
                         </div>
                     </div>
                     <div className={`${styles.footerMenus}`}>
@@ -48,8 +48,8 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className={`${styles.footerCopy}`}>
-                    <p>©Conecta MR 2023. Todos os direitos reservados.</p>
-                    <p>Design by Yupper Digital ✌️</p>
+                    <p>©Conecta 2023. Todos os direitos reservados.</p>
+                    <p>Design by <a href="https://yupper.com.br" target="_blank">Yupper Digital ✌️</a></p>
                 </div>
             </div>
         </footer>
