@@ -112,6 +112,7 @@ html {
 body {
   font: 1rem var(--font-family);
   -webkit-font-smoothing: antialiased;
+  background-color: #fff;
 }
 
 a {

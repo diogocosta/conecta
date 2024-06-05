@@ -40,9 +40,12 @@
     padding-top: 6rem;
 }
 
-.listProductsItem figure img {
-    width: 100%;
-    height: auto;
+.listProductsItemSlide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 440px;
 }
 
 .listProductsItemText {
@@ -81,6 +84,7 @@
 @media (max-width: 640px) {
     .listProducts { padding: 6rem 0; }
     .listProductsHead { width: 100%; max-width: 100%; }
-    .listProductsItem { max-width: 100%; }
+    .listProductsItem { max-width: 100%; padding-top: 2rem;}
     .listProductsItem figure { max-width: 70%;}
+    .listProductsItemSlide > div { height: 300px; }
 }

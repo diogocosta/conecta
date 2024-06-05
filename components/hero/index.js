@@ -26,8 +26,8 @@ export const Hero = () => {
                     <div className={`${styles.heroContent}`}>
                         <h2 className={`${styles.heroContentTitle}`} data-aos="fade-up">Conectando o Brasil</h2>
                         <div className={`${styles.heroContentText}`} data-aos="fade-up">
-                            <p>Colocamos à disposição dos clientes nosso profundo conhecimento da indústria nacional voltada ao setor da construção civil e da infraestrutura e a nossa vasta rede de relacionamentos e parceiros comerciais.</p>
-                            <p>Nossa missão é auxiliar nossos clientes no desenvolvimento de novas oportunidades de negócios, de forma transparente, com atendimento personalizado e a preços diferenciados.</p>
+                            <p>Colocamos à disposição dos nossos clientes, um profundo conhecimento da indústria nacional de construção civil e infraestrutura.</p>
+                            <p>Nossa missão é auxiliar nossos clientes no desenvolvimento de novas oportunidades de negócios, de forma transparente, com foco em inteligência de preços, agilidade no atendimento e condições comerciais diferenciadas.</p>
                         </div>
                     </div>
                 </div>

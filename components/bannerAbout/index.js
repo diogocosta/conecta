@@ -14,11 +14,11 @@ export const BannerAbout = () => {
     <div id="about" className={`${styles.bannerAbout}`}>
       <div className={`${styles.bannerAboutContainer}`} data-aos="fade-up">
         <div className={`${styles.bannerAboutContent}`}>
-          <p>Idealizada por profissionais atuantes do mercado de construção civil e infraestrutura, a Conecta surgiu para servir como elo entre as mais variadas empresas atuantes de tal setor econômico. A grande parceria existente com alguns dos principais players do mercado nos permite ofertar produtos de forma dinâmica e com excelentes condições comerciais.</p>
-          <p>Representamos apenas empresas selecionadas, referências em seus setores de atuação.</p>
-          <p>Com o objetivo de garantir a melhor experiência possível aos nossos parceiros comerciais, optamos por apenas ofertar produtos de empresas sólidas, possuidoras de modernos parques industriais e produtos de alta qualidade.</p>
-          <p>Por ser um negócio essencialmente de relacionamento comercial, a Conecta tem como uma de suas principais preocupações a qualidade dos produtos oferecidos, motivo pelo qual nos certificamos que os nossos fornecedores possuem todos os certificados de qualidade exigidos.</p>
-          <p>Já participamos de relevantes negócios no setor da construção civil e da infraestrutura. Será um prazer contar um pouco mais da nossa história e entender como podemos agregar aos seus negócios.</p>
+          <p>Idealizada por profissionais atuantes no mercado de construção civil e infraestrutura, a Conecta surgiu para servir como elo entre empresas atuantes de tal setor econômico. A grande parceria existente com alguns dos principais players do mercado nos permite ofertar produtos de forma inteligente e dinâmica.</p>
+
+          <p>Por ser um negócio essencialmente de relacionamento, a Conecta tem como uma de suas principais preocupações, representar apenas empresas selecionadas, referências em seus setores de atuação. Sendo assim, nossos fornecedores possuem todos os certificados de qualidade exigidos.</p>
+
+          <p>Estamos entusiasmados por ter a oportunidade de nos conectar com você. Sua satisfação é nossa principal prioridade e nos dedicamos a fornecer um serviço excepcional, adaptado assuas necessidades.</p>
         </div>
 
         <div className={`${styles.bannerAboutImage}`}>
